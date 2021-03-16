@@ -6,7 +6,7 @@
   - npm run build
   - apt-get update && apt-get install --assume-yes brotli
   - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
-  - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli --force --keep {} \;
+  - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli --force --keep {} --input={}  --output={}.br \;
   artifacts:
     paths:
     - public
