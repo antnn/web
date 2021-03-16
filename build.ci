@@ -1,5 +1,6 @@
 npm install
 npm run build
+mkdir -p /var/lib/apt/lists/partial
 apt-get update && apt-get install --assume-yes brotli
 find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \; 
 find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli --force --quality 9 --input {} --output {}.br \;
