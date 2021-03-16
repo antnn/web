@@ -6,6 +6,6 @@
         - npm run build
       artifacts:
         paths:
-          - build/dist
+          - build
       only:
         - master
