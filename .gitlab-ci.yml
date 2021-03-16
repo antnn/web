@@ -2,7 +2,7 @@
  pages:
   stage: deploy
   script:
-  - npm run install
+  - npm install
   - npm run build
   artifacts:
     paths:
