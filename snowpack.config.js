@@ -2,9 +2,13 @@
 module.exports = {
   mount: {
     /* ... */
+       // directory name: 'build directory'
+   public: '/',
+   src: '/dist',
   },
   plugins: [
     /* ... */
+    '@snowpack/plugin-svelte'
   ],
   routes: [
     /* Enable an SPA Fallback in development: */
@@ -19,6 +23,8 @@ module.exports = {
   },
   devOptions: {
     /* ... */
+    hostname: "0.0.0.0",
+    port: 8080
   },
   buildOptions: {
     /* ... */

@@ -1,0 +1,106 @@
+{
+    "cookies": [
+        {
+            "sameSite": "None",
+            "name": "_ym_uid",
+            "value": "1614868791807451200",
+            "domain": ".tsx.bar",
+            "path": "/",
+            "expires": 366,
+            "httpOnly": false,
+            "secure": true
+        },
+        {
+            "sameSite": "None",
+            "name": "_ym_d",
+            "value": "1614868791",
+            "domain": ".tsx.bar",
+            "path": "/",
+            "expires": 366,
+            "httpOnly": false,
+            "secure": true
+        },
+        {
+            "sameSite": "None",
+            "name": "yandexuid",
+            "value": "7508082781614868790",
+            "domain": ".yandex.ru",
+            "path": "/",
+            "expires": 3651,
+            "httpOnly": false,
+            "secure": true
+        },
+        {
+            "sameSite": "None",
+            "name": "yuidss",
+            "value": "7508082781614868790",
+            "domain": ".yandex.ru",
+            "path": "/",
+            "expires": 3651,
+            "httpOnly": false,
+            "secure": true
+        },
+        {
+            "sameSite": "None",
+            "name": "yabs-sid",
+            "value": "2008063681614868790",
+            "domain": "mc.yandex.ru",
+            "path": "/",
+            "expires": -1,
+            "httpOnly": false,
+            "secure": true
+        },
+        {
+            "sameSite": "None",
+            "name": "i",
+            "value": "fZV0/dtnNt5aIGpMSqdEEw3II5UiV7ETp7XQMUO3bKJePoqYyIR2GNbujHuz2vnJfVQkmmtyJz1V96bEYmIQyOrYPCk=",
+            "domain": ".yandex.ru",
+            "path": "/",
+            "expires": 3651,
+            "httpOnly": true,
+            "secure": true
+        },
+        {
+            "sameSite": "None",
+            "name": "ymex",
+            "value": "1930228790.yrts.1614868790#1930228790.yrtsi.1614868790",
+            "domain": ".yandex.ru",
+            "path": "/",
+            "expires": 366,
+            "httpOnly": false,
+            "secure": true
+        },
+        {
+            "sameSite": "None",
+            "name": "_ym_visorc",
+            "value": "w",
+            "domain": ".tsx.bar",
+            "path": "/",
+            "expires": 1,
+            "httpOnly": false,
+            "secure": true
+        },
+        {
+            "sameSite": "None",
+            "name": "_ym_isad",
+            "value": "2",
+            "domain": ".tsx.bar",
+            "path": "/",
+            "expires": 1,
+            "httpOnly": false,
+            "secure": true
+        }
+    ],
+    "persistent": {
+        "_ym72412639_il": "\"home\"",
+        "_ym_wv2rf:72412639:0": "1",
+        "_ym_uid": "\"1614868791807451200\"",
+        "_ym72412639_lsid": "715001352212",
+        "_ym72412639_reqNum": "4",
+        "_ym72412639_lastHit": "1614868807412",
+        "_ym_retryReqs": "{}"
+    },
+    "session": {
+        "__vw_tab_guid": "5c4721ae-025e-a9d1-5249-29b00e9bb7f3"
+    }
+}

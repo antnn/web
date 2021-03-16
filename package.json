@@ -5,6 +5,22 @@
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
   "devDependencies": {
-    "snowpack": "^3.0.1"
+    "@snowpack/plugin-svelte": "^3.5.2",
+    "postcss": "^8.2.6",
+    "postcss-load-config": "^3.0.1",
+    "prettier": "^2.2.1",
+    "prettier-plugin-svelte": "^2.1.6",
+    "sass": "^1.32.8",
+    "snowpack": "^3.0.1",
+    "svelte": "^3.32.3",
+    "svelte-materialify": "^0.3.5",
+    "svelte-preprocess": "^4.6.9",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "@mdi/font": "^5.9.55",
+    "@mdi/js": "^5.9.55",
+    "firebase": "^8.2.9",
+    "typescipt": "^1.0.0"
   }
 }

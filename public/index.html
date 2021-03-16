@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Starter Snowpack App" />
+  <title></title>
+  <script>
+    function getParam(p) {
+      var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+      return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+    }
+    const GCLID=getParam("gclid");
+    const YCLID=getParam("yclid");
+  </script>
+</head>
+
+<body>
+  <script type="module" src="/index.js"></script>
+</body>
+
+</html>
