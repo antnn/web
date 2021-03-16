@@ -3,7 +3,7 @@ module.exports = {
   mount: {
     /* ... */
        // directory name: 'build directory'
-   public: '/',
+   static: '/',
    src: '/dist',
   },
   plugins: [
@@ -28,6 +28,6 @@ module.exports = {
   },
   buildOptions: {
     /* ... */
-    out:'build'
+    out:'public'
   },
 };

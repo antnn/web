@@ -1,11 +1,13 @@
  image: node:latest
  pages:
-      stage: deploy
-      script:
-        - npm install
-        - npm run build
-      artifacts:
-        paths:
-          - build
-      only:
-        - master
+  stage: deploy
+  script:
+  - npm run install
+  - npm run build
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+
+
